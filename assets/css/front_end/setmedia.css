@@ -1,0 +1,239 @@
+
+
+@media (min-width:1200px) /* lg*/ {
+    .row_pc{
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .container{
+        width: 1200px;
+    }
+    .w_18{
+      width: 18%;
+    }
+    .w_25{
+      width: 25%;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) /* md*/{
+    .list_link_hd{
+        float: left !important;
+    }
+    .choose_price, .choose_city {
+        width: 195px;
+    }
+    .button-search a{
+        margin-left: 0px;
+    }
+    .detail-car-number p {
+        font-size: 22px;
+    }
+    .text-new-car h2 {
+        margin-bottom: 22px;
+    }
+    .title_ft {
+        font-size: 14px;
+    }
+    .form-register form button {
+        font-size: 12px;
+    }
+    .w_18{
+      width: 18%;
+    }
+    .w_25{
+      width: 25%;
+    }
+    .text-detail-car .price-car {
+        font-size: 22px;
+    }
+    .personal_page{
+        display: block;
+        margin-bottom: 15px !important;
+    }
+    .item_info>input {
+        width: 85%;
+    }
+    .item-select select {
+        width: 697px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) /* sm*/{
+    .sc_header_menu.sticky-header{
+        position: relative !important;
+    }
+    .nav-menu > .menu-item.is-active a{
+        color: #fff;
+    }
+    .choose_price, .choose_city {
+        width: 154px;
+    }
+    .choose_Status, .year_manufacture {
+        width: 160px;
+    }
+    .button-search a{
+        margin-left: 0px;
+    }
+    .detail-car-number p {
+        font-size: 22px;
+    }
+    .text-new-car h2 {
+        margin-bottom: 20px;
+    }
+    .item_ft_top ul {
+        column-count: 3;
+    }
+    .item_ft_top{
+        margin-bottom: 15px;
+    }
+    .item_ft_bottom{
+        margin-bottom: 20px;
+    }
+    .form-register form button {
+        font-size: 12px;
+    }
+    .personal_page{
+        margin-bottom: 20px !important;
+        display: block;
+    }
+    .item_info>input {
+        width: 80%;
+    }
+    .item-select select {
+        width: 80%;
+    }
+}
+
+@media (max-width:767px) /* xs*/{
+    .sc_header_menu.sticky-header{
+        position: relative !important;
+    }
+    .nav-menu > .menu-item.is-active a{
+        color: #fff;
+    }
+    .button-search a {
+        margin-left: 0px;
+    }
+    .search-label, .price-provincial, .date-status{
+        float: none;
+        margin-right: 0px;
+    }
+    .input_search, .choose_price, .choose_city, .choose_Status, .year_manufacture{
+        width: 100%;
+    }
+    .choose_carrier, .Vehicles{
+        width: 100%;
+        margin-right: 0px;
+    }
+    .choose_carrier, .Vehicles{
+        margin-bottom: 20px;
+    }
+    .price-provincial{
+        margin-bottom: 20px;
+    }
+    .tree_direct_car li {
+        font-size: 17px;
+    }
+    .tree_direct_car li:before {
+        top: 5px;
+    }
+    .display_type{
+        margin-top: 5px;
+    }
+    .detail-car-number p {
+        font-size: 20px;
+    }
+    .text-new-car h2 {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .detail-car p {
+        font-size: 12px;
+    }
+    .item_ft_top ul {
+        column-count: 3;
+    }
+    .item_ft_top{
+        margin-bottom: 15px;
+    }
+    .item_ft_bottom{
+        margin-bottom: 20px;
+    }
+    .form-register form button {
+        font-size: 12px;
+    }
+    .img-detail-car{
+        margin-bottom: 20px;
+    }
+    .menutab-car-new ul li a {
+        padding: 0px 10px;
+    }
+    .Contact_seller{
+        margin-bottom: 20px;
+    }
+    .detail-user img {
+        margin-bottom: 40px;
+    }
+    .detail-user{
+        margin-bottom: 20px;
+        margin-top: -50px;
+    }
+    .item_info>input {
+        width: 76%;
+    }
+    .item-select select {
+        width: 76%;
+    }
+}
+
+@media (max-width:480px) {
+    .col-480-12{
+        width: 100% !important;
+    }
+    .col-480-6{
+        width: 50% !important;
+    }
+    .hidden-480{
+        display: none !important;
+    }
+    .visible-480{
+        display: block !important;
+    }
+    .tree_direct_car li {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .text-new-car h2 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .add-phone{
+        margin-top: 10px;
+    }
+    .item_ft_top ul {
+        column-count: 2;
+    }
+    .detail-car h2 {
+        font-size: 18px;
+    }
+    .item_info>input {
+        width: 62%;
+    }
+    .item-select select {
+        width: 62%;
+    }
+    .box-pro a img{
+        float: none;
+        margin: auto;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+
+.visible-480{
+    display: none;
+}
